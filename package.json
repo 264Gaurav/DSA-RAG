@@ -1,0 +1,33 @@
+{
+  "name": "dsa-rag",
+  "version": "1.0.0",
+  "description": "DSA instructor RAG system with memory and persist previous conversation as context.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/264Gaurav/DSA-RAG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/264Gaurav/DSA-RAG/issues"
+  },
+  "homepage": "https://github.com/264Gaurav/DSA-RAG#readme",
+  "dependencies": {
+    "@google/genai": "^1.11.0",
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.66",
+    "@langchain/google-genai": "^0.2.16",
+    "@langchain/pinecone": "^0.2.0",
+    "@langchain/textsplitters": "^0.1.0",
+    "@pinecone-database/pinecone": "^5.1.2",
+    "dotenv": "^17.2.1",
+    "pdf-parse": "^1.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
