@@ -29,7 +29,7 @@ async function transformQuery(question) {
   return response.text;
 }
 
-async function chatting(question) {
+export async function chatting(question) {
   // covert this question into vector
 
   const queries = await transformQuery(question);
